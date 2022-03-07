@@ -29,7 +29,7 @@ div.generalInfo{
 #imageInfo{
     color: white;
     padding-top: 125px;
-    padding-left: 240px;
+    padding-left: 270px;
     font-size: 30px;
     font-family: "Raleway", sans-serif;
 }
@@ -54,7 +54,10 @@ div.generalInfo{
 #number{
     width: 75px;
     height: 65px;
-    background: blue;
+    /* background: blue; */
+    background-color: #7f5a83;
+background-image: linear-gradient(315deg, #7f5a83 0%, #0d324d 74%);
+
     color: white;
     border-radius: 54px;
     font-size: 35px;
@@ -73,7 +76,10 @@ h1,h2,h3,h4,p{
     display: inline-block;
     text-align: center;
     width:24.79%;
-    
+    padding-top:50px;
+    box-shadow: 0 5px 8px 7px rgb(0 0 0 / 20%);
+    border-radius: 25px;
+    /* border: grey; */
 }
 #weight{
     font-weight: 900;
