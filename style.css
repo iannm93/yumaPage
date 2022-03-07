@@ -1,0 +1,85 @@
+.navBar{
+    margin-left: 95rem;
+    font-size: 30px;
+    position: fixed;
+}
+
+#links{
+    padding: 30px;
+}
+
+.sellHomeImage{
+    background-image: "https://www.offerpad.com/landing-bg-1920-12c7a5f787a31074da4e52159629ee15.jpg";
+   height: 425px;
+   background-position-x:62% ;
+   background-position-y: 50%;
+}
+div.generalInfo{
+    background-image:url("https://www.offerpad.com/landing-bg-1920-12c7a5f787a31074da4e52159629ee15.jpg");
+    height: 425px;
+    background-position-x:62% ;
+    background-position-y: 50%;
+    align-items: flex-end;
+}
+.sellHome{
+    position: relative;
+    width: 100%;
+    z-index: 2;
+}
+#imageInfo{
+    color: white;
+    padding-top: 125px;
+    padding-left: 240px;
+    font-size: 30px;
+    font-family: "Raleway", sans-serif;
+}
+
+#bold{
+    font-weight: 900;
+}
+
+.bodyWrapper{
+    text-align: center;
+    font-weight: 900;
+    font-size: 25px;
+    font-family: "Raleway", sans-serif;
+}
+.howWorks{
+    margin-top: 15px;
+}
+.sellUs{
+    margin-bottom: 10px;
+    margin-top:25px;
+}
+#number{
+    width: 75px;
+    height: 65px;
+    background: blue;
+    color: white;
+    border-radius: 54px;
+    font-size: 35px;
+    padding-top: 10px;
+    font-weight: 900;
+    font-family: "Raleway", sans-serif;
+    text-align: center;
+}
+
+h1,h2,h3,h4,p{
+    font-family: "Raleway", sans-serif;
+}
+.numberContainer{
+    /* text-align: center; */
+    /* padding-left: 17rem; */
+    display: inline-block;
+    text-align: center;
+    width:24.79%;
+    
+}
+#weight{
+    font-weight: 900;
+}
+
+.specifNum{
+    padding-left:12rem;
+}
+
