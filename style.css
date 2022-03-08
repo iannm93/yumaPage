@@ -1,20 +1,7 @@
-.navBar{
-    margin-left: 95rem;
-    font-size: 30px;
-    position: fixed;
-}
 
-#links{
-    padding: 30px;
-}
 
-.sellHomeImage{
-    background-image: "https://www.offerpad.com/landing-bg-1920-12c7a5f787a31074da4e52159629ee15.jpg";
-   height: 425px;
-   background-position-x:62% ;
-   background-position-y: 50%;
-}
 div.generalInfo{
+    margin-top: 0;
     background-image:url("https://www.offerpad.com/landing-bg-1920-12c7a5f787a31074da4e52159629ee15.jpg");
     height: 425px;
     background-position-x:62% ;
@@ -89,3 +76,40 @@ h1,h2,h3,h4,p{
     padding-left:12rem;
 }
 
+.description{
+    height: 400px;
+    /* background-color: blue; */
+    width: 70%;
+    display: inline-block;
+    /* padding-top: 20px; */
+    /* margin-top: 40px; */
+    background-color: #7f5a83;
+    background-image: linear-gradient(315deg, #7f5a83 0%, #0d324d 74%);
+    color: white;
+}
+.picture{
+    height: 400px;
+    width: 30%;
+    display: inline-block;
+    z-index: 2;
+}
+.easyCash{
+    margin-top:55px;
+    text-align: center;
+    margin-bottom:30px;
+}
+.textDescription{
+    display: table;
+    /* padding-left: 30px; */
+    font-family: "Raleway", sans-serif;
+    font-weight: 900;
+    /* padding-top: 30px; */
+    padding: 90px;
+    font-size: 30px;
+}
+
+
+.descriptWrapper{
+    display: flex;
+    /* margin-left: 85px; */
+}
