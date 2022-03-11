@@ -39,19 +39,22 @@ div.generalInfo{
     margin-top:25px;
 }
 #number{
-    width: 75px;
-    height: 65px;
+     width: 120px;
+    height: 90;
     /* background: blue; */
     background-color: #7f5a83;
-background-image: linear-gradient(315deg, #7f5a83 0%, #0d324d 74%);
-
+    background-image: linear-gradient(315deg, #7f5a83 0%, #0d324d 74%);
     color: white;
     border-radius: 54px;
     font-size: 35px;
-    padding-top: 10px;
     font-weight: 900;
     font-family: "Raleway", sans-serif;
     text-align: center;
+    padding-bottom: 5px;
+    align-items: center;
+    display: inline-block;
+    /* vertical-align: text-top;*/
+    
 }
 
 h1,h2,h3,h4,p{
@@ -72,9 +75,6 @@ h1,h2,h3,h4,p{
     font-weight: 900;
 }
 
-.specifNum{
-    padding-left:12rem;
-}
 
 .description{
     height: 400px;
@@ -112,4 +112,23 @@ h1,h2,h3,h4,p{
 .descriptWrapper{
     display: flex;
     /* margin-left: 85px; */
+}
+
+#form{
+    margin-top: 3.5rem;
+    margin-left: 23.5rem;
+}
+
+#center{
+    text-align: center;
+}
+#margins{
+    margin-right: 15px;
+}
+#labels{
+    font-weight: 900;
+    font-family: "Raleway", sans-serif;
+}
+#form-container-row1{
+margin-bottom: 15px;
 }
